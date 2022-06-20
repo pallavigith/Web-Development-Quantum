@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+
+
+
+
+        Var, let,const
+        "use strict"
+        // global scope
+        var a = 100;
+        const b = 20;
+
+        {
+            let a = 10;  // a is now block scope
+            var c = 200;  // c is a global scope
+            console.log(a);
+        }
+
+        var a = 300;
+        console.log(a);
+        // b = "Hello";
+        console.log(b);
+        function test() {
+            var name = "pune"; //funtion scope
+            let d = 400;  // function scope
+            console.log(b);
+        }
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
